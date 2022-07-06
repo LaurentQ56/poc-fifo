@@ -1,0 +1,30 @@
+{
+    "name": "laurentq56/poc-fifo",
+    "description": "POC du concept First In First Out",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PocFifo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "LaurentQ56",
+            "email": "info@developpement-interessant.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "7.4.*"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.4",
+        "phpunit/phpunit": "^9.5"
+    }
+}
