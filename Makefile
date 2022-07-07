@@ -34,7 +34,7 @@ down: ## Remove docker containers
 	@$(DC) down
 	@echo "Container stopped"
 
-reset: stop start ## Reset the whole project
+reset: down start ## Reset the whole project
 
 install: dist-files build start ## Install the whole project
 

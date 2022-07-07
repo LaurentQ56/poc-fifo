@@ -3,6 +3,12 @@
     "description": "POC du concept First In First Out",
     "type": "project",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "LaurentQ56",
+            "email": "info@developpement-interessant.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "PocFifo\\": "src/"
@@ -13,12 +19,6 @@
             "Tests\\": "tests"
         }
     },
-    "authors": [
-        {
-            "name": "LaurentQ56",
-            "email": "info@developpement-interessant.com"
-        }
-    ],
     "minimum-stability": "stable",
     "require": {
         "php": "7.4.*"
